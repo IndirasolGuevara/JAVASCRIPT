@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/calcu.png" type="image/x-icon">
+    <title>calculadora</title>
+</head>
+<body style="background-color: aliceblue;">
+    <h1>Calculadora JS</h1>
+    <label for="numero1" >ingrese el primer numero:</label>
+    <input  id="numero1"style="margin: 10px;" type="text"><br>
+    <label for="numero2">ingrese el segundo numero:</label>
+    <input  id="numero2" type="text">
+    <button style="color:palevioletred;" onclick="sumar()">sumar</button>
+    <button style="color:palevioletred;"onclick="restar()">restar</button>
+    <button style="color:palevioletred;"onclick="multiplicar()">multplicar</button>
+    <button style="color:palevioletred;"onclick="dividir()">dividir</button>
+    <p id="resul"></p>
+    <script src="./calculadora.js"></script>
+</body>
+</html>
